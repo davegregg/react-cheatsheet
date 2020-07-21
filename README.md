@@ -1,10 +1,8 @@
-# React Cheatsheet
-
 ### Creating a component
 + If I want a component to be *static,* and I don't anything changed inside of it later:
-  - Then write it as a **functional component**. Functional components only take inputs (props) and provide their output to the DOM.
+  - I will write it as a **functional component**. Functional components only take inputs (props) and provide their output to the DOM.
 + If I want a component to be *smart* or if it needs to be interactive:
-  - Then write it as a **class component**.
+  - I will write it as a **class component**.
 
 ### Passing a value to a component (props)
 + If I have some unique input which I want each instance of this component to have, I will create a prop to pass into the JSX tag for that component (`<ComponentName propName="propValue" />`) and accepts in the props object inside my component definition (`props.propName` or `this.props.propName`).
@@ -56,3 +54,17 @@
         this.handleIncrement = this.handleIncrement.bind(this)
     }
     ```
+
+# Test section
+
+<details>
+  <summary><h1>I want to create a component</h1></summary>
+  <h3>If I want a component to be *static,* and I don't anything changed inside of it later:</h3>
+  <ul>
+    <li>I will write it as a **functional component**. Functional components only take inputs (props) and provide their output to the DOM.</li>
+  </ul>
+  <h3>If I want a component to be *smart* or if it needs to be interactive:</h3>
+  <ul>
+    <li>Then write it as a **class component**.</li>
+  </ul>
+</details>
