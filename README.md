@@ -1,6 +1,6 @@
 <style>
 summary {
-  border-bottom: 3px dashed #02568B;
+  outline-bottom: 4px dashed #02568B;
 }
 summary h1 {
   display: inline;
@@ -68,6 +68,7 @@ summary h1 {
 
 <details>
   <summary><h1>I want to create a component</h1></summary>
+  <br>
   <h3>If I want a component to be *static,* and I don't anything changed inside of it later:</h3>
   <ul>
     <li>I will write it as a **functional component**. Functional components only take inputs (props) and provide their output to the DOM.</li>
