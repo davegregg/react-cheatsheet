@@ -19,8 +19,13 @@ details[open] > summary:before {
     font-size: 2em;
     margin-right: 2em;
 }
-summary:hover {
+details > summary:hover {
   border-bottom: 4px dashed #FDC54C;
+  cursor: zoom-in;
+}
+details[open] > summary:hover {
+  border-bottom: 4px dashed #FDC54C;
+  cursor: zoom-out;
 }
 summary h1 {
   display: inline;
