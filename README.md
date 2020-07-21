@@ -11,13 +11,13 @@ details > summary:before {
     content: "＋";
     font-weight: bold;
     font-size: 2em;
-    margin-right: 0.5em;
+    margin-right: 0.3em;
 }
 details[open] > summary:before {
     content: "－";
     font-weight: bold;
     font-size: 2em;
-    margin-right: 0.5em;
+    margin-right: 0.3em;
 }
 details > summary:hover {
   border-bottom: 4px dashed #FDC54C;
