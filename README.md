@@ -7,11 +7,17 @@ summary {
 summary::-webkit-details-marker {
   display: none;
 }
-details > summary:after {
+details > summary:before {
     content: "＋";
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 2em;
 }
-details[open] > summary:after {
+details[open] > summary:before {
     content: "－";
+    font-weight: bold;
+    font-size: 2em;
+    margin-right: 2em;
 }
 summary:hover {
   border-bottom: 4px dashed #FDC54C;
