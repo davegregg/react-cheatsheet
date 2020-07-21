@@ -1,6 +1,20 @@
 <style>
 summary {
-  outline-bottom: 4px dashed #02568B;
+  border-bottom: 4px dashed #02568B;
+  outline: none;
+  list-style-type: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+details > summary:after {
+    content: "＋";
+}
+details[open] > summary:after {
+    content: "－";
+}
+summary:hover {
+  border-bottom: 4px dashed #FDC54C;
 }
 summary h1 {
   display: inline;
@@ -67,7 +81,7 @@ summary h1 {
 # Test section
 
 <details>
-  <summary><h1>I want to create a component</h1></summary>
+  <summary><h1>I want to create a component.</h1></summary>
   <br>
   <h3>If I want a component to be *static,* and I don't anything changed inside of it later:</h3>
   <ul>
